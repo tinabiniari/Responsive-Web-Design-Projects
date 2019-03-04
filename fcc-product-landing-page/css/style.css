@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+
+.navbar{
+  position:fixed;
+  z-index:1;
+  width:100%;
+  display:inline-flex;
+}
+
+p{
+ font-weight:lighter;
+}
+
+
+
+html{
+  font-family: 'Rajdhani', sans-serif;
+    
+  background-size: 100%;
+  
+}
+
+
+#title{
+  float:left;
+  font-family: 'Rajdhani', sans-serif;
+  padding:26px 50px 0px 0px;
+
+  font-size:30px;
+  color:white;
+  
+}
+
+
+#app-photo{
+  padding:90px 100px 0px 0px;
+  width:300px;
+  height:auto;
+  
+}
+
+#video{
+display:block;
+margin:0 auto;
+
+}
+
+.about{
+  padding:100px 0px 0px 0px;
+  background:black;
+}
+
+#description{
+  color:white;
+  width:100%;
+  padding:120px 0px 0px 0px; 
+  font-size:20px;
+  
+  
+}
+
+
+ @media (min-width: 992px) {
+   #description{
+     font-size:26px;
+   }  
+   #app-photo{
+     width:350px;
+   }
+  }
+ @media (max-width: 768px) {
+   #description{
+     font-size:13px;
+   }  
+   #app-photo{
+     width:260px;
+   }
+  }
+ 
+.nav-link {
+  color:white;
+  list-style-type:none;
+}
+
+.features{
+  padding-top:100px;
+  padding-bottom:100px;
+
+
+  background:url(https://i1.wp.com/9to5mac.com/wp-content/uploads/sites/6/2018/09/536.DoubleBubble_Gray-414w-896h@2xiphone.jpg?quality=82&strip=all&ssl=1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+}
+
+.main{
+  background:url(http://hd-wallpapersfd.info/wp-content/uploads/HTML/Black-Screen/Black-Screen1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#app-img{
+  padding:20px 0px 20px 50px;
+}
+
+#form-title{
+  text-align:center;
+  padding-bottom:50px;
+  font-weight:100;
+}
+
+#email-label{
+ font-weight:100;
+}
+
+
+
+.form{
+  background:url(https://i2.wp.com/9to5mac.com/wp-content/uploads/sites/6/2018/09/534.Bubble_Yellow-414w-896h@2xiphone.jpg?quality=82&strip=all&ssl=1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding-top:100px;
+    padding-bottom:100px;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.8);
+  color:white;
+  font-size:30px;
+
+}
+
+#email{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid white;
+  background:none;
+  color:white;
+  font-size:15px;
+  outline:none;
+
+}
+
+#email:hover{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid white;
+  background:none;
+    font-size:15px;
+}
+#email:focus{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid white;
+  background:none;
+    font-size:15px;
+}
+#submit{
+  background:none;
+  border:1px solid white;
+  padding:10px;
+  width:25%;
+  display:block;
+  margin:0 auto;
+  
+}
+
+#submit:hover{
+  background:white;
+  color:black;
+}
+
+
+
+
+
