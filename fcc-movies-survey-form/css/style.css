@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Poiret+One|Neucha');
+
+#title{
+  font-family:'Neucha', cursive;
+  text-align:center;
+  font-size:60px;
+  color:black;
+}
+#outline{
+ background-color:white;
+  text-align:center;
+ margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 1px;
+  
+}
+#description{
+  text-align:center;
+  font-size:20px;
+}
+html{
+  background:url( https://i.pinimg.com/originals/15/9a/4a/159a4a2358f41eeb68f998292f18f8be.png) repeat fixed;
+  background-size:295px;
+font-family:'Neucha', cursive; 
+}
+
+#form{
+ text-align:center;
+}
+
+
+.title{
+  border-style: solid;
+  border-width: 2px;
+  
+}
+
+#name,#email,#number,#dropdown,#group{
+  display: inline-block;
+  width: 150px;
+ margin: 8px;
+  padding:8px;
+  
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size:20px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+
+#radio-label,#checkbox-label{
+  display:block;
+  padding:8px;
+
+}
+
+/* .block{
+   border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  
+} */
+
+
+#outline{
+  background: #ffeb9b;
+  
+}
+
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+ 
+}
+
+@media screen and (max-width:970px){
+   #comments{
+    width:100%;
+  }
+}
+#submit {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 18px 2px;
+  cursor: pointer;
+}
+
+#comments{
+  height:100px;
+  width:100%;
+  resize:vertical;
+  
+}
+
+

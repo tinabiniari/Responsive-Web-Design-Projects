@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Movies Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+<div id="outline">
+  <div class="block">
+    <div class="title">
+      <h1 id="title">Movies Survey Form</h1></div>
+  <p id="description">Let us know about your favourite movie genres</p>
+  </div>
+  <div id="form">
+  <form id="survey-form" method="GET">
+    <div class="block">
+    <div class="row">
+      <div class="labels">
+        <label id="name-label">Name :</label></div>
+      <div class="rightTab">
+<input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+      
+      </div>
+    
+    
+    
+ <div class="row" >
+   <div class="labels">
+ <label id="email-label">Email :</label>
+   </div>
+   <div class="rightTab">
+<input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required></div>
+   
+      </div>
+          
+      
+  <div class="row">   
+    <div class="labels">
+      <label id="number-label">Age :</label></div>
+    <div class="rightTab">
+  <input autofocus type="number" name="age" id="number" class="input-field" placeholder="Enter your age" required min="0" max="99"></div>
+</div>
+      
+  <div class="row">
+    <div class="labels">
+      <label id="genre-label">Choose your favourite genre :</label></div>
+    <div class="rightTab">
+  <select  name="genre" id="dropdown" class="input-field">
+    <option value="action">Action</option>
+    <option value="adventure">Adventure</option>
+          <option value="comedy">Comedy</option>
+      
+    <option value="crime">Crime</option>
+      <option value="drama">Drama</option>
+    <option value="historical">Epics/Historical</option>
+    <option value="horror">Horror</option>
+      <option value="musical">Musicals/Dance</option>
+ <option value="scifi">Sci-Fi</option>
+      <option value="war">War</option>
+  <option value="western">Western</option>
+      </select></div>
+    </div>
+    <br>
+    </div>
+ <div class="row">
+ 
+ <div class="labels"><label id="frequency-label">
+   How often do you watch films ?</label></div>
+  <div class="rightTab">
+   <div id="group">
+   <label id="radio-label">Everyday
+   <input type="radio" checked="checked" name="radio" value="everyday">
+   </label>
+     <label id="radio-label">Once a week
+   <input type="radio" name="radio" value="Once a week">
+   </label>
+   
+    <label id="radio-label">Once a month
+   <input type="radio"  name="radio" value="Once a month">
+   </label>
+    
+    <label id="radio-label">Once a year
+   <input type="radio"  name="radio" value="Once a year">
+     </label></div>
+</div>
+</div><br>
+    <div class="row">
+      <div class="labels"><label id="plot-label">Which of the following is significant for a good movie in your opinion?</label></div>
+<div class="rightTab">
+      <div id="group">
+        <label id="checkbox-label">Plot/Storyline
+          <input type="checkbox" name="option1" value="Plot" id="checkbox"></label>
+      <label id="checkbox-label">Special Effects
+        <input type="checkbox" name="option2" value="Special Effects" id="checkbox"></label>
+         <label id="checkbox-label">Cast
+       <input type="checkbox" name="option3" value="Cast" id="checkbox"></label>
+        <label id="checkbox-label">Genre
+       <input type="checkbox" name="option4" value="Genre" id="checkbox"></label>
+  </div></div></div>
+    
+  
+    <div class="row">
+      <div class="labels"><label id="comment-label">Any comments or suggestions?</label></div>
+      <div class="rightTab">
+    <textarea id="comments" rows="4" cols="50" placeholder="Enter your comment">
+
+</textarea>
+    </div></div>
+    
+    <button id="submit">Submit</button>
+    </form></div>
+    
+    
+  </div>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </div>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
