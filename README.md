@@ -1,2 +1,2 @@
-# Responsive-Web-Design-Projects
+# Responsive Web Design Projects
 FreeCodeCamp Responsive Web Design Projects
